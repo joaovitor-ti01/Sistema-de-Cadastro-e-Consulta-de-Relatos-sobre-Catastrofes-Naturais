@@ -3,8 +3,8 @@
 Este projeto é uma aplicação de linha de comando desenvolvida em **linguagem C**, que permite o **cadastro, listagem e filtragem de relatos sobre desastres naturais** ocorridos em um raio de até 10 km a partir de uma localização informada. O sistema também armazena os dados em um arquivo `.txt` para persistência entre execuções.
 
 
-Aluno: João Vitor Lima Caldeira
-RM: 566541
+Alunos: João Vitor Lima Caldeira RM: 566541
+        Giovanna Fernandes Pereira RM: 565434
 ---
 
 ##  Funcionalidades

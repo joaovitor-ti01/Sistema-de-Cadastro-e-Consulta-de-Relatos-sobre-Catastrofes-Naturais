@@ -1,4 +1,4 @@
-# 📍 Sistema de Cadastro de Relatos de Catástrofes Naturais
+# Sistema de Cadastro de Relatos de Catástrofes Naturais
 
 Este projeto é uma aplicação de linha de comando desenvolvida em **linguagem C**, que permite o **cadastro, listagem e filtragem de relatos sobre desastres naturais** ocorridos em um raio de até 10 km a partir de uma localização informada. O sistema também armazena os dados em um arquivo `.txt` para persistência entre execuções.
 
@@ -7,19 +7,19 @@ Aluno: João Vitor Lima Caldeira
 RM: 566541
 ---
 
-## 📌 Funcionalidades
+##  Funcionalidades
 
-- ✅ Cadastro de relatos com dados completos da pessoa que registrou.
-- ✅ Validação básica de entradas.
-- ✅ Cálculo da distância geográfica entre pontos (fórmula de Haversine).
-- ✅ Filtro de relatos dentro de um raio de 10 km.
-- ✅ Listagem completa dos relatos.
-- ✅ Ordenação por data dos relatos.
-- ✅ Salvamento e carregamento automático dos relatos em arquivo `.txt`.
+-  Cadastro de relatos com dados completos da pessoa que registrou.
+-  Validação básica de entradas.
+-  Cálculo da distância geográfica entre pontos (fórmula de Haversine).
+-  Filtro de relatos dentro de um raio de 10 km.
+-  Listagem completa dos relatos.
+-  Ordenação por data dos relatos.
+-  Salvamento e carregamento automático dos relatos em arquivo `.txt`.
 
 ---
 
-## 🧱 Tecnologias e conceitos aplicados
+##  Tecnologias e conceitos aplicados
 
 - `struct`: Representação de entidades como `Pessoa` e `Relato`.
 - `vetores`: Armazenamento dinâmico dos relatos em memória.
@@ -30,7 +30,7 @@ RM: 566541
   
 ---
 
-## 🧪 Exemplo de uso
+##  Exemplo de uso
 
 ### Menu principal:
 
@@ -73,7 +73,7 @@ Distância: 0.40 km
 
 ---
 
-## 💾 Estrutura do arquivo `relatos.txt`
+##  Estrutura do arquivo `relatos.txt`
 
 Cada linha do arquivo contém os dados de um relato, no seguinte formato:
 
@@ -83,7 +83,7 @@ João da Silva|12345678900|(11)99999-9999|joao@gmail.com|Enchente|24/05/2025|-23
 
 ---
 
-## 🧹 Limitações e melhorias possíveis
+##  Limitações e melhorias possíveis
 
 - Validação de CPF, email e data pode ser mais robusta.
 - Adicionar ordenações por nome ou tipo de desastre.
